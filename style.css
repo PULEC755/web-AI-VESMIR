@@ -1,49 +1,137 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fascinující Vesmír | Zdroje a AI</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Fascinující Vesmír</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Domů</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-                <li><a href="zdroje.html" class="active">Zdroje a AI</a></li>
-            </ul>
-        </nav>
-    </header>
+/* Základní nastavení stránek */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    <main>
-        <h2>Zdroje a citace AI</h2>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0d17; /* Tmavě modré/černé vesmírné pozadí */
+    color: #e0e6ed;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-        <section class="info-box">
-            <h3>Použité zdroje</h3>
-            <ul>
-                <li>Obrázky: <a href="https://unsplash.com" target="_blank">Unsplash.com</a> (volně použitelné vesmírné fotografie)</li>
-                <li>Informace o vesmíru: <a href="https://www.nasa.gov" target="_blank">NASA Official Website</a></li>
-            </ul>
-        </section>
+/* Hlavička a Menu */
+header {
+    background-color: #15192b;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #2d3748;
+}
 
-        <section class="info-box">
-            <h3>Využití umělé inteligence (AI)</h3>
-            <p><strong>Použitá AI:</strong> Google Gemini</p>
-            <p><strong>Jak mi AI pomohla:</strong> Pomohla mi navrhnout strukturu HTML stránek, sestavit moderní vesmírný CSS styl a navrhnout rozvržení obsahu.</p>
-            <p><strong>Hlavní použité příkazy (prompty):</strong></p>
-            <ul>
-                <li><code>"Chci vytvořit web na téma vesmír se 3 strankami v HTML a CSS."</code></li>
-                <li><code>"Napiš mi CSS styl s tmavým vesmírným motivem a responzivní galerií."</code></li>
-                <li><code>"Vytvoř stránku se zdroji a citací AI podle zadání."</code></li>
-            </ul>
-        </section>
-    </main>
+header h1 {
+    color: #4db5ff;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-    <footer>
-        <p>&copy; 2026 Můj vesmírný web | Vytvořeno s pomocí AI</p>
-    </footer>
-</body>
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #a0aec0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    color: #ffffff;
+    background-color: #2b3649;
+}
+
+/* Hlavní obsah */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex: 1;
+}
+
+h2 {
+    color: #63b3ed;
+    margin-bottom: 1rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1e2640, #0f172a);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    border: 1px solid #2d3748;
+}
+
+/* Galerie */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 1.5rem;
+}
+
+.card {
+    background-color: #1a202c;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #2d3748;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px 15px 5px;
+    color: #4db5ff;
+}
+
+.card p {
+    padding: 0 15px 15px;
+    font-size: 0.9rem;
+    color: #cbd5e0;
+}
+
+/* Boxy pro zdroje */
+.info-box {
+    background-color: #1a202c;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #4db5ff;
+}
+
+code {
+    background-color: #2d3748;
+    color: #9f7aea;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+a {
+    color: #63b3ed;
+}
+
+/* Patička */
+footer {
+    background-color: #15192b;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+    font-size: 0.85rem;
+    color: #718096;
+}
+
 </html>
