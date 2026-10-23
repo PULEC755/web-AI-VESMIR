@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fascinující Vesmír | Zdroje a AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fascinující Vesmír</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="zdroje.html" class="active">Zdroje a AI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Zdroje a citace AI</h2>
+
+        <section class="info-box">
+            <h3>Použité zdroje</h3>
+            <ul>
+                <li>Obrázky: <a href="https://unsplash.com" target="_blank">Unsplash.com</a> (volně použitelné vesmírné fotografie)</li>
+                <li>Informace o vesmíru: <a href="https://www.nasa.gov" target="_blank">NASA Official Website</a></li>
+            </ul>
+        </section>
+
+        <section class="info-box">
+            <h3>Využití umělé inteligence (AI)</h3>
+            <p><strong>Použitá AI:</strong> Google Gemini</p>
+            <p><strong>Jak mi AI pomohla:</strong> Pomohla mi navrhnout strukturu HTML stránek, sestavit moderní vesmírný CSS styl a navrhnout rozvržení obsahu.</p>
+            <p><strong>Hlavní použité příkazy (prompty):</strong></p>
+            <ul>
+                <li><code>"Chci vytvořit web na téma vesmír se 3 strankami v HTML a CSS."</code></li>
+                <li><code>"Napiš mi CSS styl s tmavým vesmírným motivem a responzivní galerií."</code></li>
+                <li><code>"Vytvoř stránku se zdroji a citací AI podle zadání."</code></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Můj vesmírný web | Vytvořeno s pomocí AI</p>
+    </footer>
+</body>
+</html>
